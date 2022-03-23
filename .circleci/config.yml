@@ -44,5 +44,5 @@ workflows:
   Run-Smoke-Test-workflow:
     jobs:
       - create_infrastructure
-      - smoke_test
-      - destroy_environment
+#      - smoke_test
+#      - destroy_environment
